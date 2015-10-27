@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68208F641B900AB300B601BF /* WTTFMeasures.m in Sources */ = {isa = PBXBuildFile; fileRef = 68208F631B900AB300B601BF /* WTTFMeasures.m */; };
+		68208F691B90241C00B601BF /* WTTFActiveTimeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 68208F681B90241C00B601BF /* WTTFActiveTimeData.m */; };
+		6878A5221BB6417800166C6A /* FWDCircles.m in Sources */ = {isa = PBXBuildFile; fileRef = 6878A5211BB6417800166C6A /* FWDCircles.m */; settings = {ASSET_TAGS = (); }; };
+		6878A5251BB644E000166C6A /* FWDCircleShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 6878A5241BB644E000166C6A /* FWDCircleShape.m */; settings = {ASSET_TAGS = (); }; };
 		6885C3401B8D7C61006E6EEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6885C33F1B8D7C61006E6EEC /* main.m */; };
 		6885C3431B8D7C61006E6EEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6885C3421B8D7C61006E6EEC /* AppDelegate.m */; };
-		6885C3461B8D7C61006E6EEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6885C3451B8D7C61006E6EEC /* ViewController.m */; };
 		6885C3491B8D7C61006E6EEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6885C3471B8D7C61006E6EEC /* Main.storyboard */; };
 		6885C34B1B8D7C61006E6EEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6885C34A1B8D7C61006E6EEC /* Images.xcassets */; };
 		6885C34E1B8D7C61006E6EEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6885C34C1B8D7C61006E6EEC /* LaunchScreen.xib */; };
 		6885C35A1B8D7C61006E6EEC /* WTTFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6885C3591B8D7C61006E6EEC /* WTTFTests.m */; };
+		6885C3651B8D8277006E6EEC /* WFFTStepTrackerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6885C3641B8D8277006E6EEC /* WFFTStepTrackerViewController.m */; };
+		6885C3671B8D82EC006E6EEC /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6885C3661B8D82EC006E6EEC /* CoreMotion.framework */; };
+		6885C36D1B8D86FD006E6EEC /* WTTFMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6885C36C1B8D86FD006E6EEC /* WTTFMainViewController.m */; };
+		6885C36F1B8D8A8B006E6EEC /* WTTF_splash_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 6885C36E1B8D8A8B006E6EEC /* WTTF_splash_white.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +34,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		68208F621B900AB300B601BF /* WTTFMeasures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WTTFMeasures.h; path = Model/WTTFMeasures.h; sourceTree = "<group>"; };
+		68208F631B900AB300B601BF /* WTTFMeasures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WTTFMeasures.m; path = Model/WTTFMeasures.m; sourceTree = "<group>"; };
+		68208F671B90241C00B601BF /* WTTFActiveTimeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WTTFActiveTimeData.h; path = Model/WTTFActiveTimeData.h; sourceTree = "<group>"; };
+		68208F681B90241C00B601BF /* WTTFActiveTimeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WTTFActiveTimeData.m; path = Model/WTTFActiveTimeData.m; sourceTree = "<group>"; };
+		6878A5201BB6417800166C6A /* FWDCircles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWDCircles.h; sourceTree = "<group>"; };
+		6878A5211BB6417800166C6A /* FWDCircles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWDCircles.m; sourceTree = "<group>"; };
+		6878A5231BB644E000166C6A /* FWDCircleShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWDCircleShape.h; sourceTree = "<group>"; };
+		6878A5241BB644E000166C6A /* FWDCircleShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWDCircleShape.m; sourceTree = "<group>"; };
 		6885C33A1B8D7C61006E6EEC /* WTTF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTTF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6885C33E1B8D7C61006E6EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6885C33F1B8D7C61006E6EEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6885C3411B8D7C61006E6EEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6885C3421B8D7C61006E6EEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6885C3441B8D7C61006E6EEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6885C3451B8D7C61006E6EEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6885C3481B8D7C61006E6EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6885C34A1B8D7C61006E6EEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6885C34D1B8D7C61006E6EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6885C3531B8D7C61006E6EEC /* WTTFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTTFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6885C3581B8D7C61006E6EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6885C3591B8D7C61006E6EEC /* WTTFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTTFTests.m; sourceTree = "<group>"; };
+		6885C3631B8D8277006E6EEC /* WFFTStepTrackerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WFFTStepTrackerViewController.h; path = Model/WFFTStepTrackerViewController.h; sourceTree = "<group>"; };
+		6885C3641B8D8277006E6EEC /* WFFTStepTrackerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WFFTStepTrackerViewController.m; path = Model/WFFTStepTrackerViewController.m; sourceTree = "<group>"; };
+		6885C3661B8D82EC006E6EEC /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		6885C36B1B8D86FD006E6EEC /* WTTFMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WTTFMainViewController.h; path = Model/WTTFMainViewController.h; sourceTree = "<group>"; };
+		6885C36C1B8D86FD006E6EEC /* WTTFMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WTTFMainViewController.m; path = Model/WTTFMainViewController.m; sourceTree = "<group>"; };
+		6885C36E1B8D8A8B006E6EEC /* WTTF_splash_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WTTF_splash_white.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6885C3671B8D82EC006E6EEC /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +80,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68208F651B900AC100B601BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6878A51C1BB62F4A00166C6A /* Circles */,
+				68208F621B900AB300B601BF /* WTTFMeasures.h */,
+				68208F631B900AB300B601BF /* WTTFMeasures.m */,
+				68208F671B90241C00B601BF /* WTTFActiveTimeData.h */,
+				68208F681B90241C00B601BF /* WTTFActiveTimeData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		68208F661B900AD000B601BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6885C36B1B8D86FD006E6EEC /* WTTFMainViewController.h */,
+				6885C36C1B8D86FD006E6EEC /* WTTFMainViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6878A51C1BB62F4A00166C6A /* Circles */ = {
+			isa = PBXGroup;
+			children = (
+				6878A5201BB6417800166C6A /* FWDCircles.h */,
+				6878A5211BB6417800166C6A /* FWDCircles.m */,
+				6878A5231BB644E000166C6A /* FWDCircleShape.h */,
+				6878A5241BB644E000166C6A /* FWDCircleShape.m */,
+			);
+			name = Circles;
+			sourceTree = "<group>";
+		};
 		6885C3311B8D7C60006E6EEC = {
 			isa = PBXGroup;
 			children = (
+				6885C3661B8D82EC006E6EEC /* CoreMotion.framework */,
 				6885C33C1B8D7C61006E6EEC /* WTTF */,
 				6885C3561B8D7C61006E6EEC /* WTTFTests */,
 				6885C33B1B8D7C61006E6EEC /* Products */,
@@ -81,14 +134,16 @@
 		6885C33C1B8D7C61006E6EEC /* WTTF */ = {
 			isa = PBXGroup;
 			children = (
+				68208F661B900AD000B601BF /* View */,
+				68208F651B900AC100B601BF /* Model */,
 				6885C3411B8D7C61006E6EEC /* AppDelegate.h */,
 				6885C3421B8D7C61006E6EEC /* AppDelegate.m */,
-				6885C3441B8D7C61006E6EEC /* ViewController.h */,
-				6885C3451B8D7C61006E6EEC /* ViewController.m */,
 				6885C3471B8D7C61006E6EEC /* Main.storyboard */,
 				6885C34A1B8D7C61006E6EEC /* Images.xcassets */,
 				6885C34C1B8D7C61006E6EEC /* LaunchScreen.xib */,
 				6885C33D1B8D7C61006E6EEC /* Supporting Files */,
+				6885C3631B8D8277006E6EEC /* WFFTStepTrackerViewController.h */,
+				6885C3641B8D8277006E6EEC /* WFFTStepTrackerViewController.m */,
 			);
 			path = WTTF;
 			sourceTree = "<group>";
@@ -96,6 +151,7 @@
 		6885C33D1B8D7C61006E6EEC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6885C36E1B8D8A8B006E6EEC /* WTTF_splash_white.png */,
 				6885C33E1B8D7C61006E6EEC /* Info.plist */,
 				6885C33F1B8D7C61006E6EEC /* main.m */,
 			);
@@ -202,6 +258,7 @@
 				6885C3491B8D7C61006E6EEC /* Main.storyboard in Resources */,
 				6885C34E1B8D7C61006E6EEC /* LaunchScreen.xib in Resources */,
 				6885C34B1B8D7C61006E6EEC /* Images.xcassets in Resources */,
+				6885C36F1B8D8A8B006E6EEC /* WTTF_splash_white.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +276,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6885C3461B8D7C61006E6EEC /* ViewController.m in Sources */,
+				6885C36D1B8D86FD006E6EEC /* WTTFMainViewController.m in Sources */,
+				6885C3651B8D8277006E6EEC /* WFFTStepTrackerViewController.m in Sources */,
+				6878A5221BB6417800166C6A /* FWDCircles.m in Sources */,
 				6885C3431B8D7C61006E6EEC /* AppDelegate.m in Sources */,
+				68208F641B900AB300B601BF /* WTTFMeasures.m in Sources */,
 				6885C3401B8D7C61006E6EEC /* main.m in Sources */,
+				68208F691B90241C00B601BF /* WTTFActiveTimeData.m in Sources */,
+				6878A5251BB644E000166C6A /* FWDCircleShape.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +478,7 @@
 				6885C35F1B8D7C61006E6EEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6885C3601B8D7C61006E6EEC /* Build configuration list for PBXNativeTarget "WTTFTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +487,7 @@
 				6885C3621B8D7C61006E6EEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
